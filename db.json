@@ -1,0 +1,16 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "Stormtrooper",
+            "preco": "$ 60,00",
+            "imagem": "https://images.tcdn.com.br/img/img_prod/422825/180_caneca_3d_formato_stormtrooper_star_wars_500_ml_7453_1_0ae4e0733c8c40eaa445dbd77a2e2e06.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "Game Boy Classic",
+            "preco": "$ 60,00",
+            "imagem": "https://images-na.ssl-images-amazon.com/images/I/71M2YFpOORL._CR0,410,1062,1062_UX175.jpg"
+        }
+    ]
+}
