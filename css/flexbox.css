@@ -1,0 +1,96 @@
+/*CABECALHO*/
+
+.cabecalho {
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+/*CORPO*/
+
+.corpo {
+    display: flex;
+    gap: 70px;
+    padding: 110px 70px;
+}
+
+.secao__produtos {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.lista__produtos {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-width: 678px;
+    gap: 78px 10px;
+    max-height: 971px;
+    padding: 15px;
+}
+.produto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.produto__valor__lixeira {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secao__formulario {
+    padding: 37px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.formulario__input {
+    padding: 10px 14px 9px 14px;
+}
+.formulario__botoes {
+    display: flex;
+    gap: 13px;
+}
+.formulario__botao__guardar {
+    padding: 10px 20px;
+}
+.formulario__botao__limpar {
+    padding: 10px 20px;
+}
+
+/*RODAPE*/
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 64px 0;
+    align-items: center;
+}
+.div__logo {
+    display: flex;
+    align-items: center;
+}
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+@media (max-width: 780px) {
+    .corpo {
+        flex-direction: column-reverse;
+    }
+    .secao__formulario {
+        padding: 37px 0;
+    }
+}

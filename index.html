@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/flexbox.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="/assets/image 1.png" alt="">
+        <p class="logo">AluraGeek</p>
+    </header>
+
+    <main class="corpo">
+        <section class="secao__produtos">
+            <h1 class="secao__produtos__titulo">MEUS PRODUTOS:</h1>
+            <div class="lista__produtos" data-lista-produtos>
+                
+            </div>
+        </section>
+
+        <section class="secao__formulario">
+            <h1 class="formulario__titulo">ADICIONAR PRODUTO:</h1>
+            <form class="formulario" data-formulario>
+                <input class="formulario__input" type="text" placeholder="nome..." required data-nome>
+                <input class="formulario__input" type="text" placeholder="valor..." required data-valor>
+                <input class="formulario__input" type="text" placeholder="imagem..." required data-imagem>
+                <div class="formulario__botoes">
+                    <input class="formulario__botao__guardar" type="submit" value="Guardar">
+                    <input class="formulario__botao__limpar" type="reset" value="Limpar">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="div__logo">
+            <img src="/assets/image 1.png" alt="">
+            <p class="logo">AluraGeek</p>
+        </div>
+        <div class="informacoes">
+            <p class="meu__nome">DESENVOLVIDO POR HENRIQUE MELO</p>
+            <p class="ano">ALURA LATAM - 2024</p>
+        </div>
+    </footer>
+    <script src="/app.js" type="module"></script>
+</body>
+</html>

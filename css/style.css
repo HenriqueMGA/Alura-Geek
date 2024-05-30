@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap');
+
+:root {
+    --cor-um: #000000;
+    --cor-dois: #FFFFFF;
+    --cor-tres: #E5E5E5;
+    --cor-quatro: #5300C8;
+    --cor-cinco: #5D04D9;
+    --cor-seis: #03318C;
+
+    --fonte-primaria: "Press Start 2P", system-ui;
+    --fonte-secundaria: "IBM Plex Mono", monospace;
+}
+
+/*CABECALHO*/
+
+.cabecalho {
+    background-color: var(--cor-quatro);
+    display: flex;
+}
+.logo {
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    color: var(--cor-tres);
+}
+
+/*CORPO*/
+
+.secao__produtos__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 24px;
+    color: var(--cor-um);
+}
+.lista__produtos {
+    box-shadow: -5 5 15px var(--cor-um);
+}
+.mensagem__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 20px;
+    color: var(--cor-um);
+}
+.produto {
+    background-color: var(--cor-cinco);
+    border-radius: 10px;
+    border: solid 4px var(--cor-um);
+}
+.produto__imagem {
+    border: solid 4px var(--cor-um);
+    border-radius: 10px;
+}
+.produto__nome {
+    font-family: var(--fonte-secundaria);
+    font-size: 15px;
+    color: var(--cor-dois);
+}
+.produto__valor {
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    color: var(--cor-dois);
+    font-weight: 700;
+}
+
+.formulario__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 24px;
+    color: var(--cor-um);
+}
+.formulario__input {
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    color: var(--cor-seis);
+    font-weight: 600;
+    border: solid 3px var(--cor-seis);
+    border-radius: 25px;
+}
+.formulario__botao__guardar {
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+    color: var(--cor-dois);
+    background-color: var(--cor-seis);
+    font-weight: 500;
+    border: solid 2px var(--cor-seis);
+    border-radius: 10px;
+}
+.formulario__botao__limpar {
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+    color: var(--cor-seis);
+    font-weight: 500;
+    border: solid 2px var(--cor-seis);
+    border-radius: 10px;
+}
+
+/*RODAPE*/
+
+.rodape {
+    background-color: var(--cor-quatro);
+}
+.meu__nome {
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    color: var(--cor-dois);
+    font-weight: 400;
+}
+.ano {
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    color: var(--cor-dois);
+    font-weight: 100;
+}
