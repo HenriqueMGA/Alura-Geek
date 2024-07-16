@@ -127,7 +127,7 @@ async function deletaProduto(evento) {
     }
 } 
 botaoDelete.forEach(botao => {
-    botao.addEventListener("click", deletaProduto);
+    botao.addEventListener("click", (evento) => deletaProduto(evento));
 });
 
 listaProduto()
